@@ -1,6 +1,3 @@
-#!/usr/bin/python3
-
-import os
 import random
 import curses 
 
@@ -58,7 +55,7 @@ while True:
 	
 	if snake[0] == food:
 		food = None
-		while food is None
+		while food is None:
 			new_food = [
 				random.randint (1, screen_height-1),
 				random.randint (1, screen_width-1)
